@@ -17,9 +17,9 @@ La idea fue recrear el análisis de la evolución del _share_ del comercio Argen
 
 Filtros a los datos:
 
-- Las partidas tienen que haber sido exportadas todos los años bajo análisis
+- Las partidas tienen que haber sido exportadas todos los años bajo análisis.
 
-- Su participación en el comercio internacional tiene que ser relevante (se mantuvo el 0,1%)
+- Su participación en el comercio internacional tiene que ser relevante (se mantuvo el 0,1%).
   
 - No tiene que presentar una diferencia significativa a lo reportado por COMTRADE. En realidad, importa que los datos de COMTRADE no sean significativamente mayores a los del INDEC, lo que indicaría que el secreto estadístico en dicha partida es sustantivo.
 
