@@ -25,11 +25,15 @@ Abrir el Visual Studio Code y abrir la carpeta donde se descargó el proyecto
 
 ![1675793547230](image/readme/1675793547230.png)
 
+_Si no se descargó el proyecto, en la página de github (donde se está leyendo esto), hacer click en code, luego en download ZIP. Descomprimir el archivo, y volver a intentar abrir la carpeta desde el vs code._
+
+![1675794024709](image/readme/1675794024709.png)
+
 Una vez abierto el proyecto, en la carpeta src está el Jupyter Notebook "evolucion share.ipynb". Ese es el archivo que interesa. Click en el botón que se encuentra arriba a la derecha "base (Python ...)" donde seleccionamos el kernel "share-indec" con las librerías requeridas ya descargadas.
 
 ![1675792715919](image/readme/1675792715919.png)
 
-Lo último, correr todo el programa con "run all". Recomiendo poner que no todas las veces que el programe pregunte por hacer algo, en caso contrario, podría llevar horas. 
+Lo último, correr todo el programa con "run all". Recomiendo poner que no todas las veces que el programe pregunte por hacer algo, en caso contrario, podría llevar horas.
 
 ![1675793459533](image/readme/1675793459533.png)
 
