@@ -132,7 +132,7 @@ def plot_diferencia_espejo(bilateral):
     fig.add_trace(go.Bar(x = bilateral.index, y = bilateral.fob_indec/1000000, name = "Fob Indec"))
     fig.add_trace(go.Bar(x = bilateral.index, y = bilateral.fob_espejoComtrade/1000000, name = "Espejo Comtrade"))
     fig.add_trace(go.Bar(x = bilateral.index, y = bilateral["Diferencia en Millones"], name = "Diferencia"))
-    fig.update_layout(template = None, separators = ",.", title_text = "Diferencia entre las exportaciones FOB reportadas por el INDEC y las importaciones CIF reportadas por los socios en COMTRADE")
+    fig.update_layout(template = None, separators = ",.", title_text = "Diferencia entre las exportaciones FOB reportadas por el INDEC y las importaciones CIF reportadas por los socios en COMTRADE<br><sup>En millones de USD")
     fig.update_yaxes(tickformat = ",")
     return fig
 
