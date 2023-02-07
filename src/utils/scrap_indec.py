@@ -168,11 +168,15 @@ def plot_df_secreto(df):
     prop_secreto.drop("pnet(kg)",axis=1, inplace=True)
     prop_secreto["proporcion"] = prop_secreto["fob(u$s)_secreto"] / prop_secreto["fob(u$s)_total"] * 100
     
+    df_secreto = df_secreto.sort_values("año",ascending = True)
+    df_sin_secreto = df_sin_secreto.sort_values("año",ascending = True)
+
     # Crear un gráfico de barras
     fig = go.Figure()
     fig.add_trace(go.Bar(x = df_secreto.año, y = df_secreto["fob(u$s)"]/1000000, name = "Secreto"))
     fig.add_trace(go.Bar(x = df_sin_secreto.año, y = df_sin_secreto["fob(u$s)"]/1000000, name = "FOB sin secreto"))
     fig.update_yaxes(tickformat = ",")
+    fig.update_xaxes(type="category")
     fig.update_layout(template = None, separators = ",.", title_text = "Secreto estadístico a nivel NCM en millones de USD<br>Fuente: Indec")
     
     return prop_secreto, fig
